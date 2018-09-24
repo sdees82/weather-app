@@ -1,0 +1,72 @@
+.navbar{
+  position: absolute;
+  width: 100%;
+  height: 3rem;
+  background: rgba(16,52,126,0.7);
+}
+
+.navbar ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+
+.navbar ul li{
+  padding: 0 2rem;
+  color:#ea8da3;
+  cursor: pointer;
+}
+
+.navbar ul li:hover{
+  color: #fff;
+}
+
+.navbar ul li:active{
+  color: #000000;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+
+}
+.currentTemp{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.fiveDay-wrapper{
+  height: 100vh;
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-wrapper{
+  padding: 1rem 1rem;
+  background:  rgba(16,52,126,0.7);
+  border-radius: .5rem;
+}
+
+.card-wrapper header h1{
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* .card-wrapper header h1:nth-child(0){
+  color: #ea8da3;
+} */
+
+.card-wrapper section p{
+  font-size: .8rem;
+  color: #ea8da3;
+}
