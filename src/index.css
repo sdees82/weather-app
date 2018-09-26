@@ -5,6 +5,6 @@ body {
   font-family: sans-serif;
   background: url('img/sky-background.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: fixed;
   background-repeat: no-repeat;
 }
